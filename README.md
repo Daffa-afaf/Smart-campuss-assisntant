@@ -2,7 +2,7 @@
 
 Sistem Retrieval-Augmented Generation (RAG) untuk SmartCampus Assistant menggunakan TF-IDF, sentiment analysis, dan summarization untuk pencarian dokumen cerdas.
 
-## 📋 Features
+## Features
 
 - **Information Retrieval**: TF-IDF Vector Space Model & Boolean Retrieval
 - **Sentiment Analysis**: Lexicon-based Indonesian sentiment detection
@@ -12,7 +12,7 @@ Sistem Retrieval-Augmented Generation (RAG) untuk SmartCampus Assistant mengguna
 - **IR Metrics**: Precision@k, Recall@k, MAP, MRR, nDCG
 - **Web Interface**: Interactive Streamlit application
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 stki-uas-A11.2022.14166-DaffaAfafFirmansyah/
@@ -45,7 +45,7 @@ stki-uas-A11.2022.14166-DaffaAfafFirmansyah/
 
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Installation
 
@@ -80,7 +80,7 @@ streamlit run streamlit_app.py
 
 The app will open at `http://localhost:8501`
 
-## 💻 Usage
+## Usage
 
 ### Using RAG Engine (Python)
 
@@ -121,7 +121,7 @@ results = search.search("mahasiswa pendaftaran", mode='boolean_and')
 answer = search.ask("Bagaimana cara mendaftar beasiswa?")
 ```
 
-## 📊 Performance Metrics
+## Performance Metrics
 
 Evaluation results on test queries:
 
@@ -134,7 +134,7 @@ Evaluation results on test queries:
 
 **Interpretation**: Excellent retrieval performance with high precision and ranking quality.
 
-## 🎯 API Reference
+## API Reference
 
 ### RAGEngine
 
@@ -160,28 +160,7 @@ Simplified search interface.
 - `compare_documents(doc1, doc2)` - Compare two documents
 - `get_statistics()` - Get corpus statistics
 
-## 🌐 Deployment
-
-### Deploy to Streamlit Cloud
-
-1. Push code to GitHub
-2. Go to [share.streamlit.io](https://share.streamlit.io)
-3. Connect your repository
-4. Set main file: `streamlit_app.py`
-5. Deploy!
-
-### Deploy to Heroku
-
-```bash
-# Create Procfile
-echo "web: streamlit run streamlit_app.py --server.port $PORT" > Procfile
-
-# Deploy
-heroku create your-app-name
-git push heroku main
-```
-
-## 📚 Document Corpus
+## Document Corpus
 
 12 documents covering:
 - FAQ: Pendaftaran, Keuangan, KRS, Profil Udinus
@@ -189,7 +168,7 @@ git push heroku main
 - Kurikulum: Teknik Informatika
 - Tata Tertib: Perpustakaan UPT
 
-## 🔧 Technologies
+## Technologies
 
 - **Python 3.12**
 - **scikit-learn**: ML models & TF-IDF
@@ -198,7 +177,7 @@ git push heroku main
 - **Streamlit**: Web interface
 - **Matplotlib & Seaborn**: Visualizations
 
-## 📖 Notebooks Documentation
+## Notebooks Documentation
 
 Each notebook includes:
 - ✅ Markdown explanations
@@ -207,21 +186,8 @@ Each notebook includes:
 - ✅ Saved outputs (CSV, JSON, PNG)
 - ✅ Performance metrics
 
-## 🤝 Contributing
-
-This is a UAS project for STKI course. Feel free to use as reference.
-
-## 👤 Author
-
-**Daffa Afaf Firmansyah**
-- NIM: A11.2022.14166
-- Course: Sistem Temu Kembali Informasi (STKI)
-- Institution: Universitas Dian Nuswantoro
-
-## 📄 License
+## License
 
 Academic project - Educational use only.
 
 ---
-
-**Note**: Ensure `data/processed/preprocessed_corpus.json` exists before running the application. Run preprocessing notebooks if needed.
