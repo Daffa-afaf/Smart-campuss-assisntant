@@ -57,8 +57,27 @@ class RAGEngine:
             self.documents = data['documents']
             print(f"✓ Loaded {len(self.documents)} preprocessed documents")
         else:
-            print("✗ Preprocessed corpus not found. Run preprocessing first.")
-            return False
+            print("✗ Preprocessed corpus not found. Auto-preprocessing...")
+            # Auto-preprocess corpus
+            self.processed_data_path.mkdir(parents=True, exist_ok=True)
+            preprocessor_temp = DocumentPreprocessor({
+                'corpus_path': str(self.corpus_path),
+                'output_path': str(self.processed_data_path),
+                'min_token_length': 3,
+                'lowercase': True,
+                'remove_punctuation': True,
+                'remove_stopwords': True,
+                'apply_stemming': True
+            })
+            preprocessor_temp.load_documents(str(self.corpus_path))
+            preprocessor_temp.preprocess_corpus()
+            preprocessor_temp.save_preprocessed(str(self.processed_data_path))
+            
+            # Reload preprocessed data
+            with open(preprocessed_file, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+            self.documents = data['documents']
+            print(f"✓ Auto-preprocessed and loaded {len(self.documents)} documents")
         
         # Load original texts
         for txt_file in self.corpus_path.glob('*.txt'):

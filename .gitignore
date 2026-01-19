@@ -36,7 +36,8 @@ wheels/
 .DS_Store
 
 # Project specific
-data/processed/
+data/processed/*.json
+data/processed/*.pkl
 logs/
 *.log
 .env
