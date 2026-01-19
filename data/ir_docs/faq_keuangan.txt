@@ -1,0 +1,23 @@
+Pertanyaan: 
+Bagaimana Mekanisme Pembayaran Remidi
+
+JAWABAN:
+Tata Cara Pembayaran Remidi
+Mekanisme Pembayaran Virtual Account (VA) Remidi:
+Pembayaran remidi hanya dapat dilakukan melalui nomor Virtual Account (VA) Bank Jateng Udinus dan Bank BCA Udinus dengan menggunakan kode khusus remidi, yaitu 03.
+
+Contoh:
+NIM: A11.2023.01234
+Maka, nomor VA menjadi: 1112301234 (kode 03 ditambahkan sesuai format bank masing-masing).
+
+Pembayaran melalui teller:
+Bank Jateng: Sampaikan kepada petugas teller bahwa pembayaran dilakukan melalui VA atau open payment, kemudian informasikan nomor VA Anda (misalnya: 031112301234). Nama mahasiswa dan tagihan remidi akan muncul pada sistem.
+Bank BCA: Informasikan nomor VA Anda (misalnya: 13052031112301234) kepada teller. Nama mahasiswa dan tagihan remidi akan otomatis tertera.
+
+Pembayaran melalui ATM atau Internet Banking antarbank:
+Transfer ke rekening Bank Jateng dengan nomor VA sesuai format (misalnya: 0102031112301234). Nama mahasiswa dan tagihan remidi akan muncul.
+Transfer ke rekening Bank BCA dengan nomor VA sesuai format (misalnya: 13052031112301234). Nama mahasiswa dan tagihan remidi juga akan muncul.
+
+Catatan penting:
+Jika tagihan VA Remidi belum muncul, pastikan Anda telah melakukan input dan validasi kepesertaan remidi di SIADIN.
+Pembayaran remidi hanya menggunakan nomor VA khusus remidi yang telah diperoleh sebelumnya. Pembayaran menggunakan VA reguler (seperti untuk SPP atau SKS) tidak dapat dialihkan untuk keperluan pembayaran remidi.
