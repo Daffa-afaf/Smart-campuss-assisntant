@@ -1,0 +1,13 @@
+document,actual_category,predicted_category,correct
+faq_daftar_udinus,FAQ,Profile/Academic,False
+faq_keuangan,FAQ,Profile/Academic,False
+faq_krs,FAQ,Profile/Academic,False
+faq_udinus_profil,FAQ,Profile/Academic,False
+kurikulum_teknik_informatika,Profile/Academic,Profile/Academic,True
+profil_ekonomi&bisnis,Profile/Academic,Profile/Academic,True
+profil_fib,Profile/Academic,Profile/Academic,True
+profil_fk,Profile/Academic,Profile/Academic,True
+profil_fkes,Profile/Academic,Profile/Academic,True
+profil_ilkom,Profile/Academic,Profile/Academic,True
+profil_teknik,Profile/Academic,Profile/Academic,True
+tatatertib_berkunjung_upt,Profile/Academic,Profile/Academic,True

@@ -1,0 +1,13 @@
+document,sentiment_score,polarity,confidence,sentiment_word_count,total_tokens
+faq_daftar_udinus,0.0,neutral,0.0,0,58
+faq_keuangan,0.004958677685950413,neutral,0.2,2,121
+faq_krs,0.0,neutral,0.0,0,24
+faq_udinus_profil,0.0,neutral,0.0,0,22
+kurikulum_teknik_informatika,0.0,neutral,0.0,0,57
+profil_ekonomi&bisnis,0.03125,neutral,0.2,1,24
+profil_fib,0.046875,neutral,0.2,1,16
+profil_fk,0.021249999999999998,neutral,0.2,1,40
+profil_fkes,0.0,neutral,0.0,0,25
+profil_ilkom,0.027419354838709678,neutral,0.2,1,31
+profil_teknik,0.0,neutral,0.0,0,22
+tatatertib_berkunjung_upt,0.0,neutral,0.0,0,62

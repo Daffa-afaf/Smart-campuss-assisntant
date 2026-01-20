@@ -1,0 +1,6 @@
+Method,Features
+Original,265
+Variance,164
+DF-based,265
+Chi-Square (k=100),100
+Mutual Info (k=100),100
